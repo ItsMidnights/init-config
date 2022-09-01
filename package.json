@@ -1,26 +1,28 @@
 {
-  "name": "@midnights/init-config",
-  "version": "0.0.1",
+  "name": "@michael-casas/init-config",
+  "version": "0.1.0",
   "publishConfig": {
     "access": "public"
   },
   "description": "A cli tool for generating or replacing configuration files based onbest practice github gists for each of the respective configs",
-  "main": "dist/cli.js",
+  "main": "index.js",
+  "bin": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ItsMidnights/init-config.git"
+    "url": "git+https://github.com/michael-casas/init-config.git"
   },
   "keywords": [
     "cli",
     "init-config"
   ],
-  "author": "Midnights <michaelcasas13@gmail.com> (https://michaelcasas.com/)",
+  "author": "Michael Casas <business@michaelcasas.com> (https://michaelcasas.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ItsMidnights/init-config/issues"
   },
   "homepage": "https://github.com/ItsMidnights/init-config#readme",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
