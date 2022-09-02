@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import Chalk from "chalk";
 
-console.log("Welcome to the Init Config cli");
+console.log(Chalk.blue("\nWelcome to the Init Config cli\n"));
