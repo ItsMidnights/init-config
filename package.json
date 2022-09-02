@@ -6,7 +6,9 @@
   },
   "description": "A cli tool for generating or replacing configuration files based onbest practice github gists for each of the respective configs",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "init-config": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michael-casas/init-config.git"
@@ -25,6 +27,7 @@
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@michael-casas/init-config": "^0.1.0"
+  }
 }
