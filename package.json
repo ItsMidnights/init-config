@@ -5,9 +5,9 @@
     "access": "public"
   },
   "description": "A cli tool for generating or replacing configuration files based onbest practice github gists for each of the respective configs",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
-    "init-config": "index.js"
+    "init-config": "lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@michael-casas/init-config": "^0.1.0"
+    "chalk": "^5.0.1"
   }
 }
